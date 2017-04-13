@@ -3,11 +3,20 @@
 
 **NEW RELEASE 1.12 is out. Relesase notes [here](./flowblade-trunk/docs/RELEASE_NOTES.md).**
 
+**翻译：新版本1.12已经发布。发行说明[请点这里](./flowblade-trunk/docs/RELEASE_NOTES.md)。**
+
 **Installing instructions are available [here](./flowblade-trunk/docs/INSTALLING.md).**
 
+**翻译：可用的安装介绍[请点这里](./flowblade-trunk/docs/INSTALLING.md).**
+
 **Contents:**
+
+**目录：**
   1. [Introduction](https://github.com/jliljebl/flowblade#introduction)
-  1. [Features](https://github.com/jliljebl/flowblade#features)
+  
+  1. [软件介绍](https://github.com/jliljebl/flowblade#introduction)
+  
+  1. [Features](https://github.com/jliljebl/flowblade#features)
   1. [Releases](https://github.com/jliljebl/flowblade#releases)
   1. [Installing Flowblade](https://github.com/jliljebl/flowblade#installing-flowblade)
   1. [Docs](https://github.com/jliljebl/flowblade#docs)
