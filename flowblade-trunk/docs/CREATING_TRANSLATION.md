@@ -2,13 +2,13 @@
 
 If you would like to have Flowblade translated into your language you can help by contributing a translation of Flowblade in your language.（如果你想把流刀翻译成你用的语言，可以贡献出用你的语言翻译的流刀软件。）
 
-Flowblade uses the standard [GNU "gettext" utilities](http://www.gnu.org/software/gettext/manual/gettext.html) to translate the application. GNU "gettext" is a relatively complex tool, but **Flowblade provides a set of scripts that make it easier to create translations** without using "gettext" directly.（流刀使用标准的GNU"gettext“事业来翻译应用，GNU"gettext”是一个相当复杂的工具，但是**流刀提供一系列脚本使创建翻译工作更简单** 根本用不着）
+Flowblade uses the standard [GNU "gettext" utilities](http://www.gnu.org/software/gettext/manual/gettext.html) to translate the application. GNU "gettext" is a relatively complex tool, but **Flowblade provides a set of scripts that make it easier to create translations** without using "gettext" directly.（流刀使用标准的GNU"gettext“事业来翻译应用，GNU"gettext”是一个相当复杂的工具，但是**流刀提供一系列脚本使创建翻译工作更简单** 不用直接使用“gettext”）
 
-### Steps Overview
-1. Use **git** to pull repository version of Flowblade
-2. Use the provided scripts to create a translation template for your language
-3. Edit the created template to create the translation and compile **.mo** file from it to see your work
-4. Send the created **.po** file to project lead
+### 大概步骤-Steps Overview
+1. Use **git** to pull repository version of Flowblade（使用 **git** 流刀的仓库版本）
+2. Use the provided scripts to create a translation template for your language（使用提供的脚本来为你的语言创建一个翻译模板）
+3. Edit the created template to create the translation and compile **.mo** file from it to see your work（编辑创建好的模板来创建翻译，从中编译 **.mo** 文件来查看你的工作）
+4. Send the created **.po** file to project lead（发送这个创建好的 **.po** 文件给项目负责人）
 
 ### 1. Use **git** to pull repository version of Flowblade
 
