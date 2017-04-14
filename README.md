@@ -16,11 +16,11 @@
   1. [安装此软件-Installing Flowblade](https://github.com/jliljebl/flowblade#installing-flowblade)
   1. [帮助文档-Docs](https://github.com/jliljebl/flowblade#docs)
   1. [软件截图-Screenshot](https://github.com/jliljebl/flowblade#screenshot)
-  1. [论坛-Forum, 网站Webpage and 和联络方式Contact](https://github.com/jliljebl/flowblade#forum-webpage-and-contact)
+  1. [论坛-Forum, 网站-Webpage and 和联络方式-Contact](https://github.com/jliljebl/flowblade#forum-webpage-and-contact)
 
 # 软件介绍-Introduction
 
-Flowblade is a **multitrack non-linear video editor** for Linux released under **GPL 3 license**.
+Flowblade（流刀——译者起的中文名） is a **multitrack non-linear video editor** for Linux released under **GPL 3 license**.
 
 Flowblade是一个Linux平台下的 **非线性多声道视频编辑器**，其发行遵循**GPL 3许可证**
 
