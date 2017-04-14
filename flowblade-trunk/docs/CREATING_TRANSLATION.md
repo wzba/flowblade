@@ -23,7 +23,7 @@ To create a translation you should probably first install the repository version
 ```bash
 ./add_language LANGUAGE_CODE
 ```
- in which LANGUAGE_CODE is the two letter language code for your locale.(这个LANGUAGE_CODE就是你本地语言的两个语言代码信件)
+ in which LANGUAGE_CODE is the two letter language code for your locale.(这个LANGUAGE_CODE目录里就有你本地语言的两个语言代码信件文件)
   
 ### 3. Edit the created template to create the translation and compile **.mo** file from it to see your work(编辑创建的模板来创建翻译然后编译） ###
 
