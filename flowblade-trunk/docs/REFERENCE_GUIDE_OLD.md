@@ -42,28 +42,31 @@ There are two parameters that can be selected for a new project:新建一个项�
   1. **项目简介-Project Profile** Project Profile determines frame rate per second, image size in pixels and pixel aspect ratio.项目简介决定了每秒的帧率、影像像素大小和像素方面的比例。
   1. **轨道数量-Tracks count** Select the number of video and audio tracks that are used in the project. This can be changed later, but the operation destroys the Undo / Redo stack and all the Timeline Clips that do not fit in the newly created version of the Sequence.在某个项目里选择视频和音频的轨道数量。后续也可以改变，但是这个操作会破坏撤销、重做功能，而且所有的时间轴切片都不能适配新建的系列版本。
 
-Video material is internally scaled to profile dimensions, so selecting Project Profile with smaller pixel dimensions than the rendered output leads to decreased quality.
+Video material is internally scaled to profile dimensions, so selecting Project Profile with smaller pixel dimensions than the rendered output leads to decreased quality.视频材料会在内部被缩放达到项目简介的尺寸，所以选择的项目简介中设置比导出视频小的像素尺寸会导致降低质量。
 
-Flowblade Movie Editor handles image data internally as YUV420 frames, so the encoding associated with a given profile has no affect on quality before rendering.
+Flowblade Movie Editor handles image data internally as YUV420 frames, so the encoding associated with a given profile has no affect on quality before rendering.流刀电影编辑器内部处理视频数据是用YUV420框架，所以视频完整呈现之前，编码已经给定的项目简介，质量上是无效的。
 
-For **best possible quality** the **input material, Project Profile and Rendering Profile** should **all have the same pixel dimensions** and pixel aspect ratio**.**
+For **best possible quality** the **input material, Project Profile and Rendering Profile** should **all have the same pixel dimensions** and pixel aspect ratio**.** 为了 **能达到最好质量** **输入的材料，项目简介，最终呈现的参数** 这三者应该 **都有相同的像素尺寸** 和像素长宽比例。
 
-## Adding and removing new Sequences ##
-A Project contains one or more Sequences. Use **Add** and **Delete** buttons in the **Project** tab **Sequences** panel. All Sequences use the same Profile.
+## 添加、移除新的元素-Adding and removing new Sequences ##
+A Project contains one or more Sequences. Use **Add** and **Delete** buttons in the **Project** tab **Sequences** panel. All Sequences use the same Profile.一个项目包含一个或多个元素。在 **项目Project** 标签的 **元素Sequences** 工具栏使用 **添加Add** 和 **删除Delete** 按钮来实现。所有元素使用相同的项目。
 
-When creating a new Sequence, you can choose the number of Tracks in the Sequence. This can be changed later, but the operation destroys the Undo / Redo stack and all the Timeline Clips that do not fit in the newly created version of the Sequence.
+When creating a new Sequence, you can choose the number of Tracks in the Sequence. This can be changed later, but the operation destroys the Undo / Redo stack and all the Timeline Clips that do not fit in the newly created version of the Sequence.当创建一个新的元素，你可以在元素中选择轨道的数量。这个也可以在以后改变，但是这样操作会破坏 撤销、重做功能，而且时间轴上的所有切片不会都与新的元素版本相匹配。
 
 
-## Working with Media Files ##
+## 用媒体文件来工作-Working with Media Files ##
 
-Flowblade Movie Editor holds files in **Media** tab. Files are listed in unnamed table that displays contents of the currently selected Bin. Bins are listed in the **Bins** table.
+Flowblade Movie Editor holds files in **Media** tab. Files are listed in unnamed table that displays contents of the currently selected Bin. Bins are listed in the **Bins** table.流刀电影编辑器是在 **Media** 标签把控文件的。文件被列出在未命名的表，那些显示的是最近选择的仓库。仓库列表在 **Bins** 标签。
 
-**Opening Media Files**
+**打开媒体文件-Opening Media Files**
   * Press **Add** button above the unnamed Bin contents table in the **Media** tab.
   * Use dialog to find and select files.
   * Files are displayed in untitled contents table with thumbnails.
   * Note that creating thumbnails for many simultaneously opened files will take some time.
-
+  * 在 **Media** 标签，未命名的Bin目录表上方，点击 **Add** 按钮。
+  * 用对话框找到并选择文件。
+  * 文件缩略图会被显示在没有标题的目录标签上。
+  * 注意，同时为多个打开的文件创建缩略图将会花费一些时间。
 
 ## Project Media: Absolute and relative paths ##
 
