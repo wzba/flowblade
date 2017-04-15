@@ -10,14 +10,14 @@
 
 ---
 
-# Introduction #
+# 软件介绍-Introduction #
 
-Flowblade Movie Editor is a **multitrack non-linear video editor** for Linux.
+Flowblade Movie Editor is a **multitrack non-linear video editor** for Linux.流刀电影编辑器是一个 **多轨道非线性视频编辑器** 目前只支持Linux平台。
 
-With Flowblade Movie Editor you can compose movies from video clips, audio clips and graphics files. Clips can be cut at the desired frames, filters can be added to clips, and you can create multilayer composite images using compositor objects.
+With Flowblade Movie Editor you can compose movies from video clips, audio clips and graphics files. Clips can be cut at the desired frames, filters can be added to clips, and you can create multilayer composite images using compositor objects.通过流刀电影编辑器，你可以将视频、音频、图片文件组合成一部电影。在喜爱的框架里视频可以被剪切，可以在视频里添加滤镜，而且你可以用混合工具创建多层组合影像。
 
 In Flowblade  clips are usually automatically placed tightly after the previous clip - or between two existing clips - when they
-are inserted on the timeline. Edits are fine tuned by trimming in and out points of clips, or by cutting and deleting parts of clips.
+are inserted on the timeline. Edits are fine tuned by trimming in and out points of clips, or by cutting and deleting parts of clips.在流刀的世界，视频切片被插入到时间线上的时候，往往能够和原视频或者另一个视频切片自动结合地很紧密。当你修剪视频切片内部或外部点，或者剪切、删除部分视频切片的时候，会感觉非常协调，不突兀。
 
 
 
@@ -25,22 +25,22 @@ are inserted on the timeline. Edits are fine tuned by trimming in and out points
 
 ---
 
-# Basic Editing #
+# 基本编辑-Basic Editing #
 
-This section describes the minimal workflow for making a movie using only a single track. Full editing workflow is described in detail in the later sections.
+This section describes the minimal workflow for making a movie using only a single track. Full editing workflow is described in detail in the later sections.这个部分会讲一个最简单的工作流程，只用单轨道制作一个电影。完整的编辑流程会在以后的部分给大家详细讲解。
 
 
-## Creating a New Project ##
-  * Menu: Select **File -> New** from menu.
-  * Keyboard Shortcut: Press **Control+N**.
+## 创建一个新项目-Creating a New Project ##
+  * Menu: Select **File -> New** from menu.菜单：从菜单栏选择 **File -> New**  
+  * Keyboard Shortcut: Press **Control+N**.快捷键：按下 **Control+N** .
 
-Flowblade Movie Editor saves work in project files.
-A project contains one or more Sequences of edited media and a collection of Media Files stored in Bins.
+Flowblade Movie Editor saves work in project files.流刀电影编辑器保存工作内容是放在项目文件内的。
+A project contains one or more Sequences of edited media and a collection of Media Files stored in Bins.一个项目包含一个或多个编辑过的媒体序列，和一个存在库内的多媒体合集。
 
-There are two parameters that can be selected for a new project:
+There are two parameters that can be selected for a new project:新建一个项目，有两个因素可以选：
 
-  1. **Project Profile** Project Profile determines frame rate per second, image size in pixels and pixel aspect ratio.
-  1. **Tracks count** Select the number of video and audio tracks that are used in the project. This can be changed later, but the operation destroys the Undo / Redo stack and all the Timeline Clips that do not fit in the newly created version of the Sequence.
+  1. **项目简介-Project Profile** Project Profile determines frame rate per second, image size in pixels and pixel aspect ratio.项目简介决定了每秒的帧率、影像像素大小和像素方面的比例。
+  1. **轨道数量-Tracks count** Select the number of video and audio tracks that are used in the project. This can be changed later, but the operation destroys the Undo / Redo stack and all the Timeline Clips that do not fit in the newly created version of the Sequence.在某个项目里选择视频和音频的轨道数量。后续也可以改变，但是这个操作会破坏撤销、重做功能，而且所有的时间轴切片都不能适配新建的系列版本。
 
 Video material is internally scaled to profile dimensions, so selecting Project Profile with smaller pixel dimensions than the rendered output leads to decreased quality.
 
