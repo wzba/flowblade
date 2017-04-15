@@ -16,8 +16,8 @@ To create a translation you should probably first install the repository version
 为了创建一个翻译，首先你应该使用 **git** 安装流刀的版本仓库,才能编辑和编译 ``Flowblade.po`` 这个翻译文件，查看[安装向导](https://github.com/wzba/flowblade/blob/master/flowblade-trunk/docs/INSTALLING.md).
 
 ### 2. Use the provided scripts to create a translation template for your language(使用提供的脚本来为你要翻译的语言创建一个翻译模板)
-   * Open Flowblade and select *Help -> Runtime Environment* from menu to see the *two letter locale code* for your OS install. For example *fr* for French, *fi* for Finnish etc. Information is under the header *General* . （打开Flowblade，然后从menu选择 *Help -> Runtime Environment* 为你安装系统查看 *two letter locale code* .例如， *fr* for French, *fr* for Finnish等等。信息说明在 *General* 开头下方。）  
-  * Open terminal in folder ``.../flowblade-trunk/Flowblade/locale`` that can be found in the folder you installed repository version of Flowblade in.(在 ``.../flowblade-trunk/Flowblade/locale`` 目录，这个目录可以在你安装流刀版本库的目录找到)  
+* Open Flowblade and select *Help -> Runtime Environment* from menu to see the *two letter locale code* for your OS install. For example *fr* for French, *fi* for Finnish etc. Information is under the header *General* . （打开Flowblade，然后从menu选择 *Help -> Runtime Environment* 为你安装系统查看 *two letter locale code* .例如， *fr* for French, *fr* for Finnish等等。信息说明在 *General* 开头下方。）  
+* Open terminal in folder ``.../flowblade-trunk/Flowblade/locale`` that can be found in the folder you installed repository version of Flowblade in.(在 ``.../flowblade-trunk/Flowblade/locale`` 目录，这个目录可以在你安装流刀版本库的目录找到)  
   
  * To create a new translation give a command in the terminal(在终端里用下面命令行来创建一个翻译):
 ```bash
