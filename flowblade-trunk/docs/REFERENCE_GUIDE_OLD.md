@@ -63,7 +63,7 @@ Flowblade Movie Editor holds files in **Media** tab. Files are listed in unnamed
   * Use dialog to find and select files.
   * Files are displayed in untitled contents table with thumbnails.
   * Note that creating thumbnails for many simultaneously opened files will take some time.
-  * 在 **Media** 标签，未命名的Bin目录表上方，点击 **Add** 按钮。
+  * 在 **Media** 标签，未命名的Bin目录表上方，点击 **Add** 按钮.
   * 用对话框找到并选择文件。
   * 文件缩略图会被显示在没有标题的目录标签上。
   * 注意，同时为多个打开的文件创建缩略图将会花费一些时间。
