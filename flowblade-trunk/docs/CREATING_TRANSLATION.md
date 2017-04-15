@@ -16,7 +16,7 @@ To create a translation you should probably first install the repository version
 为了创建一个翻译，首先你应该使用 **git** 安装流刀的版本仓库,才能编辑和编译 ``Flowblade.po`` 这个翻译文件，查看[安装向导](https://github.com/wzba/flowblade/blob/master/flowblade-trunk/docs/INSTALLING.md).
 
 ### 2. Use the provided scripts to create a translation template for your language(使用提供的脚本来为你要翻译的语言创建一个翻译模板)
-* Open Flowblade and select *Help -> Runtime Environment* from menu to see the *two letter locale code* for your OS install. For example *fr* for French, *fi* for Finnish etc. Information is under the header *General* . （打开Flowblade，然后从menu选择 *Help -> Runtime Environment* 为你安装系统查看 *two letter locale code* .例如， *fr* for French, *fr* for Finnish等等。信息说明在 *General* 开头下方。）  
+* Open Flowblade and select *Help -> Runtime Environment* from menu to see the *two letter locale code* for your OS install. For example *fr* for French, *fr* for Finnish etc. Information is under the header *General* . （打开Flowblade，然后从menu选择 *Help -> Runtime Environment* 为你安装系统查看 *two letter locale code* .例如， *fr* for French, *fr* for Finnish等等。信息说明在 *General* 开头下方。）  
 * Open terminal in folder ``.../flowblade-trunk/Flowblade/locale`` that can be found in the folder you installed repository version of Flowblade in.(在 ``.../flowblade-trunk/Flowblade/locale`` 目录，这个目录可以在你安装流刀版本库的目录找到)  
   
  * To create a new translation give a command in the terminal(在终端里用下面命令行来创建一个翻译):
@@ -27,9 +27,9 @@ To create a translation you should probably first install the repository version
   
 ### 3. Edit the created template to create the translation and compile **.mo** file from it to see your work(编辑创建的模板来创建翻译然后编译） ###
 
-  * A folder named with the LANGUAGE_CODE for your language can be found in the ``/locale`` folder(在 ``/locale``目录能为你的翻译语言找到一个名为LANGUAGE_CODE的目录)
-  * Inside that folder is a ``/LC_MESSAGES`` folder in which there is a file called ``Flowblade.po``. This is the file used to create the translation.(在这个目录是一个 ``/LC_MESSAGES`` 目录，它下面有一个文件叫 ``Flowblade.po`` .这个文件就是用来创建翻译用的。)
-  * Open the file ``Flowblade.po`` in a text editor. Translations are given by writing the the translations inside quotes on lines staring with text ``msgstr``. To traslate the menu item *Open...* you would need to fill the ``msgstr`` in example below(用一个编辑器打开 ``Flowblade.po`` ，需要翻译的内容已经通过引号给出来了，只需要找到前面是 ``msgstr`` 的一对引号，翻译上一行中的内容到这个引号中即可。翻译菜单栏的 ``Open`` 你需要在 ``msgstr`` 项里填上翻译的内容，就像下面的例子那样):
+* A folder named with the LANGUAGE_CODE for your language can be found in the ``/locale`` folder(在 ``/locale``目录能为你的翻译语言找到一个名为LANGUAGE_CODE的目录)
+ * Inside that folder is a ``/LC_MESSAGES`` folder in which there is a file called ``Flowblade.po``. This is the file used to create the translation.(在这个目录是一个 ``/LC_MESSAGES`` 目录，它下面有一个文件叫 ``Flowblade.po`` .这个文件就是用来创建翻译用的。)
+ * Open the file ``Flowblade.po`` in a text editor. Translations are given by writing the the translations inside quotes on lines staring with text ``msgstr``. To traslate the menu item *Open...* you would need to fill the ``msgstr`` in example below(用一个编辑器打开 ``Flowblade.po`` ，需要翻译的内容已经通过引号给出来了，只需要找到前面是 ``msgstr`` 的一对引号，翻译上一行中的内容到这个引号中即可。翻译菜单栏的 ``Open`` 你需要在 ``msgstr`` 项里填上翻译的内容，就像下面的例子那样):
 ```bash
 #: useraction.py:489
 msgid "Open.."
