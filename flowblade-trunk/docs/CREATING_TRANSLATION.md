@@ -43,15 +43,15 @@ msgstr ""
 
 
 
-### 4. Contributing a translation
-Send the created ``Flowblade.po`` file to janne.liljeblad@gmail.com or submit a Github pull request. Please mention words Flowblade, translation and the LANGUAGE_CODE in the subject line. Translation will be in the next release.
+### 4. Contributing a translation(贡献一个翻译)
+Send the created ``Flowblade.po`` file to janne.liljeblad@gmail.com or submit a Github pull request. Please mention words Flowblade, translation and the LANGUAGE_CODE in the subject line. Translation will be in the next release.（发送这个创建好的 ``Flowblade.po`` 文件到janne.liljeblad@gmail.com或者提交一个Github拉取要求。请在主题名中填上关键字Flowblade，translation和LANGUAGE_CODE。这样下个版本就会包含您的翻译文件。）
 
 
-## Updating translation ##
-If a translation already exists and you want to update it:
+## 更新翻译-Updating translation ##
+If a translation already exists and you want to update it（如果已经存在一个你想要的翻译文件，你只需要更新它即可）:
 
- * Go to the */locale* folder and give command:
+ * Go to the */locale* folder and give command（切换到 */locale* 目录，然后执行下面的命令）:
 ```bash
 ./update_language LANGUAGE_CODE
 ```
- * Translate application as described above.
+ * Translate application as described above.(作为描述翻译应用)
